@@ -1,7 +1,7 @@
 ﻿var app = angular.module("myApp", []);
 
 app.controller("FirstCtrl", function ($scope) {
-    $scope.model = { firstName: "Gabriel", lastName: "Schenker" };
+    $scope.model = { firstName: "Gabriel", lastName: "Schenker", Address:"12 Main St Cedar Park Tx" };
 
     $scope.clickMe = function (name) {
         alert("Hello " + name);
